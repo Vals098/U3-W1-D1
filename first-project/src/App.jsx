@@ -1,8 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import { useState } from "react"
+import reactLogo from "./assets/react.svg"
+import viteLogo from "./assets/vite.svg"
+import heroImg from "./assets/hero.png"
+import "./App.css"
+import ButtonComponent from "./ButtonComponent"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,7 +32,10 @@ function App() {
       </section>
 
       <div className="ticks"></div>
-
+      {/* exercise */}
+      <section>
+          <ButtonComponent text="Click me!" />
+      </section>
       <section id="next-steps">
         <div id="docs">
           <svg className="icon" role="presentation" aria-hidden="true">
