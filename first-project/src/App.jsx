@@ -4,6 +4,7 @@ import viteLogo from "./assets/vite.svg"
 import heroImg from "./assets/hero.png"
 import "./App.css"
 import ButtonComponent from "./ButtonComponent"
+import ImageComponent from "./ImageComponent"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,7 +35,8 @@ function App() {
       <div className="ticks"></div>
       {/* exercise */}
       <section>
-          <ButtonComponent text="Click me!" />
+        <ButtonComponent text="Click me!" />
+        <ImageComponent src="https://placecats.com/300/200" alt="test" />
       </section>
       <section id="next-steps">
         <div id="docs">
